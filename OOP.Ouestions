@@ -1,0 +1,1704 @@
+{
+ "metadata": {
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.2-final"
+  },
+  "orig_nbformat": 2,
+  "kernelspec": {
+   "name": "python38264bit07e9cdfa62a54934a8a7fb253b6fe038",
+   "display_name": "Python 3.8.2 64-bit"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2,
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'Mustafasta****************************************'"
+     },
+     "metadata": {},
+     "execution_count": 15
+    }
+   ],
+   "source": [
+    "st=\"Mustafasta\"\n",
+    "st.ljust(50,\"*\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'------------------Mustafa'"
+     },
+     "metadata": {},
+     "execution_count": 8
+    }
+   ],
+   "source": [
+    "st.rjust(25,\"-\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "2"
+     },
+     "metadata": {},
+     "execution_count": 12
+    }
+   ],
+   "source": [
+    "st.find(\"sta\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "7"
+     },
+     "metadata": {},
+     "execution_count": 16
+    }
+   ],
+   "source": [
+    "st.rfind(\"sta\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "4"
+     },
+     "metadata": {},
+     "execution_count": 17
+    }
+   ],
+   "source": [
+    "st.index(\"a\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "9"
+     },
+     "metadata": {},
+     "execution_count": 18
+    }
+   ],
+   "source": [
+    "st.rindex(\"a\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "error",
+     "ename": "ValueError",
+     "evalue": "substring not found",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m                                Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-19-6c1a12b89ef3>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mst\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mindex\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"l\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mValueError\u001b[0m: substring not found"
+     ]
+    }
+   ],
+   "source": [
+    "st.index(\"l\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "0"
+     },
+     "metadata": {},
+     "execution_count": 21
+    }
+   ],
+   "source": [
+    "st.count(\"l\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'mustafa1453@gmailm.com'"
+     },
+     "metadata": {},
+     "execution_count": 37
+    }
+   ],
+   "source": [
+    "email = \"mustafa1453@gmailm.com\"\n",
+    "\n",
+    "# email= email.strip(\"umoc.\")\n",
+    "email"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'tafa1453@gmail'"
+     },
+     "metadata": {},
+     "execution_count": 30
+    }
+   ],
+   "source": [
+    "#email.lstrip(\"mus\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'mustafa1453@gmail'"
+     },
+     "metadata": {},
+     "execution_count": 34
+    }
+   ],
+   "source": [
+    "email.rstrip(\".com\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'mustaf-1453@gmailm.com'"
+     },
+     "metadata": {},
+     "execution_count": 40
+    }
+   ],
+   "source": [
+    "email[0:5]+email[5::].replace(\"a\",\"-\",1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'Ahmet'"
+     },
+     "metadata": {},
+     "execution_count": 43
+    }
+   ],
+   "source": [
+    "liste = [1,2,3]\n",
+    "eb = max(liste)\n",
+    "eb\n",
+    "isim_list=[\"Mustafa\",\"Ahmet\",\"Zeynep\"]\n",
+    "max(isim_list)\n",
+    "min(isim_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "isim_list.append(\"Kamil\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Mustafa', 'Ahmet', 'Zeynep', 'Kamil']"
+     },
+     "metadata": {},
+     "execution_count": 45
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "isim_list.insert(3,\"Cemal\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Mustafa', 'Ahmet', 'Zeynep', 'Cemal', 'Kamil']"
+     },
+     "metadata": {},
+     "execution_count": 47
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'Kamil'"
+     },
+     "metadata": {},
+     "execution_count": 48
+    }
+   ],
+   "source": [
+    "isim_list.pop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Mustafa', 'Ahmet', 'Zeynep', 'Cemal']"
+     },
+     "metadata": {},
+     "execution_count": 49
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'Ahmet'"
+     },
+     "metadata": {},
+     "execution_count": 50
+    }
+   ],
+   "source": [
+    "isim_list.pop(1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Mustafa', 'Zeynep', 'Cemal']"
+     },
+     "metadata": {},
+     "execution_count": 51
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "isim_list.remove(\"Cemal\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Mustafa', 'Zeynep']"
+     },
+     "metadata": {},
+     "execution_count": 53
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "isim_list=[\"Mustafa\",\"Ahmet\",\"Zeynep\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "isim_list.sort()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['Ahmet', 'Mustafa', 'Zeynep']"
+     },
+     "metadata": {},
+     "execution_count": 56
+    }
+   ],
+   "source": [
+    "isim_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "sayi_list = [1,5,6,7,4,2,3]\n",
+    "# sayi_list.sort(reverse=True)\n",
+    "# sayi_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[3, 2, 4, 7, 6, 5, 1]"
+     },
+     "metadata": {},
+     "execution_count": 60
+    }
+   ],
+   "source": [
+    "sayi_list.reverse()\n",
+    "sayi_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "7"
+     },
+     "metadata": {},
+     "execution_count": 61
+    }
+   ],
+   "source": [
+    "len(sayi_list)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "5"
+     },
+     "metadata": {},
+     "execution_count": 62
+    }
+   ],
+   "source": [
+    "len(\"Ahmet\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[]"
+     },
+     "metadata": {},
+     "execution_count": 63
+    }
+   ],
+   "source": [
+    "sayi_list.clear()\n",
+    "sayi_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'Mustafasta'"
+     },
+     "metadata": {},
+     "execution_count": 66
+    }
+   ],
+   "source": [
+    "isim_list.index(\"Mustafa\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Mustafa': {'soyad': 'sada', 'yaş': '212'}}"
+     },
+     "metadata": {},
+     "execution_count": 67
+    }
+   ],
+   "source": [
+    "dict1 = {\"Mustafa\":{\"soyad\":\"sada\",\"yaş\":\"212\"}}\n",
+    "dict1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "<class 'dict'>\n"
+    }
+   ],
+   "source": [
+    "dict1.update({\"Mehmet\":\"Saka\"})\n",
+    "dict2 = {}\n",
+    "print(type(dict2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Mustafa': {'soyad': 'sada', 'yaş': '212'}, 'Mehmet': 'Saka'}"
+     },
+     "metadata": {},
+     "execution_count": 70
+    }
+   ],
+   "source": [
+    "dict1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "dict1[\"isim\"] = \"soyisim\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Mustafa': {'soyad': 'sada', 'yaş': '212'},\n 'Mehmet': 'Saka',\n 'isim': 'soyisim'}"
+     },
+     "metadata": {},
+     "execution_count": 72
+    }
+   ],
+   "source": [
+    "dict1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "<class 'set'>\n"
+    }
+   ],
+   "source": [
+    "set1 = set()\n",
+    "print(type(set1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 89,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'Elma'}"
+     },
+     "metadata": {},
+     "execution_count": 89
+    }
+   ],
+   "source": [
+    "set2 = {\"Elma\",\"Armut\",\"Elma\"}\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "<class 'set'>\n"
+    }
+   ],
+   "source": [
+    "print(type(set2))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 90,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'Elma', 'Karpuz'}"
+     },
+     "metadata": {},
+     "execution_count": 90
+    }
+   ],
+   "source": [
+    "set2.add(\"Karpuz\")\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 87,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'Elma', 'e', 'i', 'k', 'l', 'mango', 'ç', 'çilek'}"
+     },
+     "metadata": {},
+     "execution_count": 87
+    }
+   ],
+   "source": [
+    "set2.update(\"çileki\")\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 85,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'Elma', 'mango', 'çilek'}"
+     },
+     "metadata": {},
+     "execution_count": 85
+    }
+   ],
+   "source": [
+    "set2.remove(\"Karpuz\")\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 88,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'e', 'i', 'k', 'l', 'mango', 'ç', 'çilek'}"
+     },
+     "metadata": {},
+     "execution_count": 88
+    }
+   ],
+   "source": [
+    "set2.discard(\"Elma\")\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 91,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "{'Armut', 'Karpuz'}"
+     },
+     "metadata": {},
+     "execution_count": 91
+    }
+   ],
+   "source": [
+    "set2.pop() # pop metodu rastgele bir eleman siler set'lerde\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 92,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "set()"
+     },
+     "metadata": {},
+     "execution_count": 92
+    }
+   ],
+   "source": [
+    "set2.clear()\n",
+    "set2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 98,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "'M~u~s~t'"
+     },
+     "metadata": {},
+     "execution_count": 98
+    }
+   ],
+   "source": [
+    "liste = [\"M\",\"u\",\"s\",\"t\"]\n",
+    "str2 =\"~\".join(liste)\n",
+    "str2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 101,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['M', 'u', 's~t']"
+     },
+     "metadata": {},
+     "execution_count": 101
+    }
+   ],
+   "source": [
+    "str2.split(\"~\",2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x, y, z = 1, 2, 3 "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "1"
+     },
+     "metadata": {},
+     "execution_count": 103
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 107,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = (4, 5, 6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 108,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "<class 'tuple'>\n"
+    }
+   ],
+   "source": [
+    "print(type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 111,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "b = (3,)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 112,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "tuple"
+     },
+     "metadata": {},
+     "execution_count": 112
+    }
+   ],
+   "source": [
+    "type(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 116,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "values = [1, 2, 3]\n",
+    "x, y, z = values"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 114,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "2"
+     },
+     "metadata": {},
+     "execution_count": 114
+    }
+   ],
+   "source": [
+    "y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 125,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[4, 5, 6, 7]"
+     },
+     "metadata": {},
+     "execution_count": 125
+    }
+   ],
+   "source": [
+    "values = [1,2,3,4,5,6,7]\n",
+    "x, y, z, *_ = values\n",
+    "_value"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 126,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "10100000000\n10,100,000,000\n"
+    }
+   ],
+   "source": [
+    "no1 = 10_000_000_000\n",
+    "no2 = 100_000_000\n",
+    "adding = no1 + no2\n",
+    "print(adding)\n",
+    "print(f\"{adding:,}\") "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 129,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "3.33\n"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 3\n",
+    "sonuc = a/b\n",
+    "\n",
+    "print(f\"{sonuc:.2f}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 139,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "3.7"
+     },
+     "metadata": {},
+     "execution_count": 139
+    }
+   ],
+   "source": [
+    "sonuc=3.66\n",
+    "round(sonuc,1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 152,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = y =[1,2,3]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 154,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "True"
+     },
+     "metadata": {},
+     "execution_count": 154
+    }
+   ],
+   "source": [
+    "x is y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 155,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "y = x.copy()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 156,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "False"
+     },
+     "metadata": {},
+     "execution_count": 156
+    }
+   ],
+   "source": [
+    "x is y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 158,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "False"
+     },
+     "metadata": {},
+     "execution_count": 158
+    }
+   ],
+   "source": [
+    "1 in [2,3,5]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 179,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "3. bakım zamanı\n"
+    }
+   ],
+   "source": [
+    "# 3- Trafiğe çıkış tarihi alınan bir aracın servis zamanını aşağıdaki bilgilere göre hesaplayan python uygulamasını yapınız.\n",
+    "# 1. Bakım => 1. yıl\n",
+    "# 2. Bakım => 2. yıl\n",
+    "# 3. Bakım => 3. yıl\n",
+    "# ** Süre hesabını alınan gün, ay, yıl bilgisine göre gün bazlı hesaplayınız..\n",
+    "# *** datetime modülünü kullanmanız gerekiyor. (simdi) - (2018/8/1) => gün\n",
+    "\n",
+    "tescil_tarihi = input(\"Aracın trafiğe çıkış tarihini yazınız: 'gg/aa/yy' \")\n",
+    "tescil_tarihi_liste = tescil_tarihi.split(\"/\") \n",
+    "\n",
+    "import datetime\n",
+    "\n",
+    "tarih = datetime.datetime(day=int(tescil_tarihi_liste[0]), month=int(tescil_tarihi_liste[1]),year=int(tescil_tarihi_liste[2]))\n",
+    "\n",
+    "today = datetime.datetime.today()\n",
+    "\n",
+    "fark = today - tarih\n",
+    "fark = fark.days\n",
+    "\n",
+    "if fark > 365 and fark < 365*2:\n",
+    "    print(\"1. bakım zamanı\")\n",
+    "elif 365*2 <= fark < 365*3:\n",
+    "    print(\"2. bakım zamanı\")\n",
+    "else:\n",
+    "    print(\"3. bakım zamanı\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 178,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "369\n"
+    }
+   ],
+   "source": [
+    "print(fark.days)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 163,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "['21', '07', '2017']\n"
+    }
+   ],
+   "source": [
+    "print(tescil_tarihi_liste)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 170,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "2020-08-08 16:10:11.301693\n"
+    }
+   ],
+   "source": [
+    "today = datetime.datetime.today()\n",
+    "print(today)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 184,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "1\n3\n5\n"
+    }
+   ],
+   "source": [
+    "liste = [(1,2),(3,4),(5,6)]\n",
+    "\n",
+    "for i in liste:\n",
+    "    print(i[0])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 189,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[1, 11, 21, 31, 41, 51, 61, 71, 81, 91]"
+     },
+     "metadata": {},
+     "execution_count": 189
+    }
+   ],
+   "source": [
+    "liste2 = list(range(1,101,10))\n",
+    "liste2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 187,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Merhaba\nMerhaba\nMerhaba\nMerhaba\n"
+    }
+   ],
+   "source": [
+    "for i in range(4):\n",
+    "    print(\"Merhaba\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 195,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "(0, 1)\n(1, 11)\n(2, 21)\n(3, 31)\n(4, 41)\n(5, 51)\n(6, 61)\n(7, 71)\n(8, 81)\n(9, 91)\n"
+    }
+   ],
+   "source": [
+    "for i in enumerate(liste2):\n",
+    "    print(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 203,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[('elma', 1, 'Ahmet', 'a'),\n ('armut', 2, 'Mehmet', 'l'),\n ('portakal', 3, 'Mustafa', 'i')]"
+     },
+     "metadata": {},
+     "execution_count": 203
+    }
+   ],
+   "source": [
+    "ls1 = [\"elma\",\"armut\",\"portakal\"]\n",
+    "ls2 = [1,2,3]\n",
+    "ls3 = (\"Ahmet\",\"Mehmet\",\"Mustafa\")\n",
+    "st = \"ali\"\n",
+    "\n",
+    "list(zip(ls1,ls2,ls3,st))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 205,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[1, 4, 9, 16]"
+     },
+     "metadata": {},
+     "execution_count": 205
+    }
+   ],
+   "source": [
+    "new_list = [i**2 for i in [1,2,3,4]]\n",
+    "new_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 206,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]"
+     },
+     "metadata": {},
+     "execution_count": 206
+    }
+   ],
+   "source": [
+    "new_list2 = [i for i in range(20) if i%2==0] # yapılacak işlem if condition else olmazsa yapılacak işlm\n",
+    "new_list2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 209,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "['ÇİFT', 'TEK', 'ÇİFT', 'TEK', 'ÇİFT', 'TEK', 'ÇİFT', 'TEK', 'ÇİFT', 'TEK']"
+     },
+     "metadata": {},
+     "execution_count": 209
+    }
+   ],
+   "source": [
+    "numbers = [\"ÇİFT\" if x%2==0 else \"TEK\" for x in range(10)]\n",
+    "numbers"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def func1(v):"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 210,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def say_hello():\n",
+    "    print(\"Hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 212,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Hello\n"
+    }
+   ],
+   "source": [
+    "say_hello()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 217,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def add(a,b):\n",
+    "    return sum((a,b))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 219,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "5"
+     },
+     "metadata": {},
+     "execution_count": 219
+    }
+   ],
+   "source": [
+    "add(2,3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 220,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "error",
+     "ename": "TypeError",
+     "evalue": "add() takes 2 positional arguments but 3 were given",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-220-c6fc01c20109>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0madd\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m3\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m5\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m: add() takes 2 positional arguments but 3 were given"
+     ]
+    }
+   ],
+   "source": [
+    "add(2,3,5)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 223,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def new_add(*a): # *a = tuple'ı temsil ediyor burada\n",
+    "    return sum(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 225,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "11"
+     },
+     "metadata": {},
+     "execution_count": 225
+    }
+   ],
+   "source": [
+    "new_add(2,3,6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 226,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "1\n2\n(3, 4, 5, 6)\n{'key1': 'Mustafa', 'key2': 'Ahmet'}\n"
+    }
+   ],
+   "source": [
+    "def my_func(a,b,*args,**kwargs):  # **kwargs = dictionary i temsil eder\n",
+    "    print(a)\n",
+    "    print(b)\n",
+    "    print(args)\n",
+    "    print(kwargs)\n",
+    "\n",
+    "my_func(1,2,3,4,5,6,key1=\"Mustafa\",key2=\"Ahmet\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 229,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "0\n1\n4\n9\n16\n"
+    }
+   ],
+   "source": [
+    "def square(num):\n",
+    "    return num**2\n",
+    "\n",
+    "liste = list(range(5))\n",
+    "\n",
+    "for i in liste:\n",
+    "    print(square(i))\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 234,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[0, 1, 4, 9, 16]"
+     },
+     "metadata": {},
+     "execution_count": 234
+    }
+   ],
+   "source": [
+    "liste2 = list(map(square,liste))\n",
+    "liste2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 240,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[1, 9]"
+     },
+     "metadata": {},
+     "execution_count": 240
+    }
+   ],
+   "source": [
+    "liste3 = list(range(20)) \n",
+    "\n",
+    "new_list = list(filter(lambda x: x%2==1,list(map(square,liste))))\n",
+    "new_list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 259,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [],
+   "source": [
+    "# Buradaki örnekte fonksiyon tanımlayıp kullanıcının hesabından para çekeceğiz, bakiye görüntüleyeceğiz\n",
+    "\n",
+    "AliHesap = {\n",
+    "    'ad': 'Ali Veli',\n",
+    "    'hesapNo': '13245678',\n",
+    "    'bakiye': 3000,\n",
+    "    'ekHesap': 2000\n",
+    "}\n",
+    "\n",
+    "MahmutHesap = {\n",
+    "    'ad': 'Mahmut Veli',\n",
+    "    'hesapNo': '123456',\n",
+    "    'bakiye': 4000,\n",
+    "    'ekHesap': 3000\n",
+    "}\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 256,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Yeteri kadar bakiyeniz bulunmamaktadır.\n"
+    }
+   ],
+   "source": [
+    "def paraCekme(hesap_adi, cekilecek_tutar):\n",
+    "    if cekilecek_tutar <= hesap_adi[\"bakiye\"] + hesap_adi[\"ekHesap\"]:\n",
+    "        if cekilecek_tutar > hesap_adi[\"bakiye\"]:\n",
+    "            onay = input(\"Paranız yetersiz ek hesaptan para çekmek ister misiniz? (E/H)\")\n",
+    "            if onay == \"E\":\n",
+    "                hesap_adi[\"ekHesap\"] -= cekilecek_tutar-hesap_adi[\"bakiye\"]\n",
+    "                hesap_adi[\"bakiye\"]=0\n",
+    "                print(f\"Kalan bakiye: {hesap_adi['bakiye']} \\n Kalan Ek Hesap: {hesap_adi['ekHesap']}\\nParanızı alabilirsiniz.\")\n",
+    "        else:\n",
+    "            hesap_adi[\"bakiye\"] -= cekilecek_tutar\n",
+    "            print(f\"Kalan bakiye: {hesap_adi['bakiye']}\\nParanızı alabilirsiniz.\")\n",
+    "    else:\n",
+    "        print(\"Yeteri kadar bakiyeniz bulunmamaktadır.\")\n",
+    "\n",
+    "paraCekme(AliHesap,2500)\n",
+    "\n",
+    "def bakiyeGoruntule(hesap_adi):\n",
+    "    print(f\"Kalan para {hesap_adi['bakiye']}\")\n",
+    "    print(f\"Kalan ek hesap {hesap_adi['ekHesap']}\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 257,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Kalan para 4000\nKalan ek hesap 3000\n"
+    }
+   ],
+   "source": [
+    "bakiyeGoruntule(MahmutHesap)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 260,
+   "metadata": {
+    "tags": []
+   },
+   "outputs": [
+    {
+     "output_type": "stream",
+     "name": "stdout",
+     "text": "Kalan bakiye: 2500\nParanızı alabilirsiniz.\n"
+    }
+   ],
+   "source": [
+    "paraCekme(AliHesap,500)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 262,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "[1, 4, 9, 16, 25]"
+     },
+     "metadata": {},
+     "execution_count": 262
+    }
+   ],
+   "source": [
+    "import math\n",
+    "\n",
+    "liste = list(map(lambda x: x**2, [1,2,3,4,5]))\n",
+    "liste"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 264,
+   "metadata": {},
+   "outputs": [
+    {
+     "output_type": "execute_result",
+     "data": {
+      "text/plain": "125"
+     },
+     "metadata": {},
+     "execution_count": 264
+    }
+   ],
+   "source": [
+    "square = lambda x,y: x**y\n",
+    "\n",
+    "square(5,3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ]
+}
